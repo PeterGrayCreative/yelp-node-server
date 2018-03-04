@@ -1,0 +1,21 @@
+{
+  "name": "yelp-node-server",
+  "version": "1.0.0",
+  "description": "A Node.js server that will make calls to Yelp's API",
+  "main": "server.js",
+  "repository": "\"github:petergraycreative/yelp-node-server.git\"",
+  "author": "Peter Gray <peter@petergraycreative.com>",
+  "license": "Apache-2.0",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  }
+}
